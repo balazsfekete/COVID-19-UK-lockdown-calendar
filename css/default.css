@@ -1,0 +1,66 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+
+    width: 43em;
+    margin: auto;
+
+    display: grid;
+    grid-gap: 1em;
+
+    padding: 1em;
+
+
+}
+
+header {
+    font-size: 2em;
+    font-weight: 500;
+
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+}
+
+
+.day {
+    background: hsla(0, 0%, 25%, 0.05);
+    padding: .5em;
+    display: grid;
+    grid-template-rows: 1em 3em;
+    justify-items: center;
+    align-items: center;
+    height: 5em;
+}
+
+
+.past {
+    background: hsla(45, 100%, 50%, 1);
+}
+
+.month {
+    font-size: 1em;
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+.date {
+    font-size: 2em;
+    font-weight: 00;
+
+}
+
+
+.review {
+    grid-column:  1 / 8;
+    background: hsla(0, 0%, 25%, 0.05);
+    padding: .5em;
+}
+
+a {
+    color: black;
+}
